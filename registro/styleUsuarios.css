@@ -1,0 +1,158 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.menu{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 380px;
+    margin-right: 5px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+/* Estilo para el encabezado */
+h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Estilo para la información del usuario */
+.usuario-info {
+    
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+/* Estilo para los párrafos dentro de usuario-info */
+.usuario-info p {
+    margin-bottom: 10px;
+}
+
+/* Estilo para las imágenes */
+.usuario-info img {
+    max-width: 150px; /* Limitar el tamaño de la imagen */
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+/* Estilo del enlace de cierre de sesión */
+a {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el mensaje de estado */
+.mensaje {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario de eliminación de cuenta */
+form {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+button {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc3545; 
+    width: 130px;
+    height: 35px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #c82333; 
+}
